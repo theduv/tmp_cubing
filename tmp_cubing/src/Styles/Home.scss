@@ -1,0 +1,22 @@
+@import './Main.scss';
+
+.home-main {
+	height: 100%;
+}
+
+.home-timer {
+	background-color: $middleBlue;
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+	color: $gunMetal;
+	border-radius: 5px;
+	width: 10vmin;
+	height: 4vmin;
+	margin-top: 1vmin;
+	padding-top: 1vmin;
+}
+
+.home-timer:hover {
+	cursor: pointer;
+}
